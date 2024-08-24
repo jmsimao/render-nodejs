@@ -1,19 +1,21 @@
 {
   "name": "render-nodejs",
   "version": "1.0.0",
-  "description": "Node.js Express Render",
+  "description": "Node.js, Express, Nodemon e Render()",
   "main": "src/index.js",
   "scripts": {
     "dev": "nodemon /src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "JMS",
+  "author": "José Marcelo",
+  "email": "simaojm@gmail.com",
   "license": "ISC",
   "dependencies": {
     "@types/express": "^4.17.21",
     "ejs": "^3.1.10",
     "express": "^4.19.2",
-    "nodemon": "^3.1.4"
+    "nodemon": "^3.1.4",
+    "render-nodejs": "file:"
   },
   "type": "module"
 }

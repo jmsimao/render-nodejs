@@ -1,11 +1,11 @@
 
 import { Router } from "express";
-import { home } from "../controllers/homeController.js"
+import { home }  from "../controllers/homeController.js"
 
 const rotas = new Router();
 
 rotas
-    .get("/userHome", home)
+    .get("/home", home)
     ;
 
 export { rotas };
